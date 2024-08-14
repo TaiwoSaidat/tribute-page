@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body { 
+    background-color: #e5e5e5;
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.imageDiv{
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 95%;
+}
+
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px 20px;
+    font-size: medium;
+}
+
+ main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+ }
+
+ .mainLife, .wikiLink{
+    font-weight: bolder;
+ }
+
+ li{
+    margin-bottom: 20px;
+    font-size: medium;
+ }
+
+ .lifeQuote > p{
+    font-style: italic;
+ }
+
+ @media screen and (min-width: 700px) {
+     .mainLife, ul, .lifeQuote{
+    width: 50%;
+ }
+  }
+ 
